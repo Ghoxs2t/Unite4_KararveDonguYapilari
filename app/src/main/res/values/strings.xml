@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Unite4_KararveDonguYapilari</string>
+    <string name="uyg1_name">uygulama-1(100 den Buyuk)</string>
+    <string name="uyg2_name">uygulama-2(Hangisi Buyuk)</string>
+    <string name="uyg3_name">uygulama-3()</string>
+    <string name="uyg4_name">uygulama-4()</string>
+    <string name="uyg5_name">uygulama-5()</string>
+    <string name="uyg6_name">uygulama-6()</string>
+    <string name="uyg7_name">uygulama-7()</string>
+    <string name="uyg8_name">uygulama-8()</string>
+    <string name="uyg9_name">uygulama-9()</string>
+    <string name="uyg10_name">uygulama-10()</string>
+</resources>
