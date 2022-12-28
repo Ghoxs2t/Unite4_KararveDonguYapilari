@@ -9,36 +9,35 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:onClick="button"
-        android:text="Button"
+        android:text="Onayla"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+        tools:layout_editor_absoluteY="195dp" />
 
     <EditText
         android:id="@+id/txtKulAdi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="sayi1"
+        android:hint="Kullanıcı Adı"
         android:inputType="number"
-        android:onClick="txt1"
-        app:layout_constraintBottom_toTopOf="@+id/txt2"
+        android:onClick="txtKulAdi"
+        app:layout_constraintBottom_toTopOf="@+id/txtSifre"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/txt2"
+        android:id="@+id/txtSifre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="sayi2"
+        android:hint="Şifre"
         android:inputType="number"
-        android:onClick="txt2"
+        android:onClick="txtsifre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="88dp" />
-
+        tools:layout_editor_absoluteY="102dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

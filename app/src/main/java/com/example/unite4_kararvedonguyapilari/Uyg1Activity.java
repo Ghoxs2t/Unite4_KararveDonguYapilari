@@ -1,5 +1,6 @@
 package com.example.unite4_kararvedonguyapilari;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,12 +22,14 @@ public class Uyg1Activity extends AppCompatActivity {
         setContentView(R.layout.uyg1_activity);
 
         button = findViewById(R.id.button);
-        number = findViewById(R.id.editTextNumber);
+        number = findViewById(R.id.editTextNumber3);
     }
-        public void kontrolet (View view) {
-        int sayi=Integer.parseInt(number.getText().toString());
-        if (sayi>100){
+
+    public void kontrolet(View view) {
+        int sayi = Integer.parseInt(number.getText().toString());
+        if (sayi > 100) {
             Toast.makeText(this, "100'den Büyük Not Olamaz", Toast.LENGTH_SHORT).show();
+
         }
     }
 }

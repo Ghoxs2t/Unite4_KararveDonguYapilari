@@ -7,8 +7,8 @@
     <string name="uyg4_name">uygulama-4()</string>
     <string name="uyg5_name">uygulama-5()</string>
     <string name="uyg6_name">uygulama-6()</string>
-    <string name="uyg7_name">uygulama-7()</string>
-    <string name="uyg8_name">uygulama-8()</string>
+    <string name="uyg7_name">uygulama-7(for döngüsü 1)</string>
+    <string name="uyg8_name">uygulama-8(for döngüsü 2)</string>
     <string name="uyg9_name">uygulama-9()</string>
     <string name="uyg10_name">uygulama-10()</string>
 </resources>

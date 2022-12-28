@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, Uyg2Activity.class);
         startActivity(i);
     }
+    public void btnUyg7Goster(View view)
+    {
+        Intent i = new Intent(MainActivity.this, Uyg7Avtivity.class);
+        startActivity(i);
+    }
 
 
 }
