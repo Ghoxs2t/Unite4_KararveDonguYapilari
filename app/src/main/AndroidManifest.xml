@@ -25,8 +25,13 @@
         <activity android:name=".Uyg1Activity" android:label="@string/uyg1_name"></activity>
         <activity android:name=".Uyg2Activity" android:label="@string/uyg2_name"></activity>
         <activity android:name=".Uyg3Activity" android:label="@string/uyg3_name"></activity>
+        <activity android:name=".Uyg4Activity" android:label="uygulama-4"></activity>
+        <activity android:name=".Uyg5Activity" android:label="uygulama-5"></activity>
+        <activity android:name=".Uyg6Activity" android:label="uygulama-6"></activity>
         <activity android:name=".Uyg7Avtivity" android:label="@string/uyg7_name"></activity>
         <activity android:name=".Uyg8Activity" android:label="@string/uyg8_name"></activity>
+        <activity android:name=".Uyg9Activity" android:label="@string/uyg9_name"></activity>
+        <activity android:name=".Uyg10Activity" android:label="@string/uyg10_name"></activity>
     </application>
 
 </manifest>
